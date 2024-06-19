@@ -1,0 +1,55 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.note {
+    font-size: 15px;
+    color: yellow;
+
+}
+body {
+    background-size: cover;
+    font-family: cursive;
+}
+.div_speed {
+    float: left;
+}
+.div_speed_img {
+    width: 200px;
+    border-radius: 100px;
+}
+#speed {
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume {
+    float: right;
+}
+.div_volume_img {
+    width: 200px;
+    border-radius: 100px;
+}
+#volume {
+    font-size: 23px;
+    margin: 15px
+}
+.play_button {
+    width: 130px;
+    font-size: 25px;
+}
+canvas {
+    border: 0px solid white;
+    border-radius: 20px;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box {
+    0% {box-shadow: -10px -10px 10px crimson;}
+    25% {box-shadow: -10px 10px 10px yellow;}
+    50% {box-shadow: 10px -10px 10px mediumaquamarine;}
+    75% {box-shadow: 10px 10px 10px orange;}
+    100% {box-shadow: 10px 10px 10px mediumorchid;}
+}
